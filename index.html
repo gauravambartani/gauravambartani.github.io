@@ -1,7 +1,14 @@
   <!DOCTYPE html>
   <html lang="en">
   <head>
-
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+<script>
+$(window).load(function() {
+  // Animate loader off screen
+  $(".se-pre-con").fadeOut("slow");;
+});
+</script>
     <link rel="stylesheet" href="/Style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +21,7 @@
     <title>Gaurav Ambartani</title>
   </head>
     <body>
+      <div class="se-pre-con"></div>
 <p class="name">Gaurav Ambartani</p>
 <h1 class="home">HELLO</h1>
 <p class="info">There are three responses to a peice on design- yes, no, and WOW! WOW is the one I aim for. </p>
