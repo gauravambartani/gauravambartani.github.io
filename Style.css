@@ -1,5 +1,5 @@
 html{
-  background-image: url("images/background.jpg");
+  background-image: url("/Images/background.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -52,7 +52,7 @@ html{
 
 @font-face {
     font-family: "simplifica_sans";
-    src: url('simplifica_sans.ttf');
+    src: url('/simplifica_sans.ttf');
 }
 .web{
   width: 100%;
