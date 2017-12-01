@@ -17,6 +17,8 @@ html{
   background-color: #142434;
 }
 
+::selection{color:#64fcf2; background: rgba(24, 48, 70, 0.7);}
+
 .name{
   font-family: 'Righteous', cursive;
   font-size:40px;
