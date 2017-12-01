@@ -1,5 +1,5 @@
 html{
-  background-image: url('/Images/Background.jpg');
+  background-image: url('/Images/Background.jpeg');
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -28,10 +28,6 @@ html{
   cursor:pointer;
 }
 
-.link{
-  text-decoration: none;
-  color:#eee;
-}
 
 .home{
   color:#64fcf2;
@@ -127,7 +123,7 @@ html{
 }
 @media only screen and (max-width: 800px) {
 html{
-  background-image: url("/Images/backgroundm.jpg");
+  background-image: url("/Images/Backgroundm.jpg");
 }
 .web{
   padding-top: 125%;
