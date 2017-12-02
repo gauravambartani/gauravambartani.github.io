@@ -127,7 +127,7 @@ html{
 }
 @media only screen and (max-width: 800px) {
 html{
-  background-image: url("Images/backgroundm.jpg");
+  background-image: url("Images/Backgroundm.jpg");
 }
 .web{
   padding-top: 125%;
