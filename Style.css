@@ -90,7 +90,7 @@ html{
     src: url('simplifica_sans.ttf');
 }
 .web{
-  width: 100%;
+  width: 100vw;
   height: 800px;
   padding-top: 47.5%;
   display: block;
@@ -170,7 +170,7 @@ html{
 
 
 .music{
-  width: 100%;
+  width: 100vw;
   height: 800px;
   padding-top: 0.7%;
   display: block;
@@ -277,8 +277,8 @@ html{
 }
 .webm{
   display: block;
-  max-height: 100%;
-  width: 100%;
+  max-height: 100vh;
+  width: 100vw;
   padding-top: 126%;
 }
 .musicpara{
