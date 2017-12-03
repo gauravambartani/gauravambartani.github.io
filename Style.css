@@ -100,7 +100,7 @@ html{
   font-size: 10vw;
   font-weight: 800;
   position: absolute;
-  top: 142%;
+  top: 130%;
   left: 75%;
   transform: translate(-50%, -50%);
   margin-left: 0;
@@ -124,7 +124,7 @@ html{
   font-size: 4vw;
   font-weight: 500;
   position: absolute;
-  top: 175%;
+  top: 163%;
   left: 71%;
   transform: translate(-50%, -50%);
   margin-left: 0;
@@ -182,12 +182,12 @@ html{
 }
 .informative{
   font-size: 18vw;
-  top:110%;
+  top:120%;
   left: 73%;
 }
 .para{
   font-size:10vw;
-  top:145%;
+  top:155%;
 }
 .web{
   display: none;
@@ -201,7 +201,8 @@ html{
 .musicpara{
   font-size:18vw;
   left:50%;
-  top:320%;
+  top:300%;
 }
+
 
 }
