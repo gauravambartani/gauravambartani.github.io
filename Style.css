@@ -265,12 +265,12 @@ html{
 }
 .informative{
   font-size: 18vw;
-  top:120%;
+  top:130%;
   left: 73%;
 }
 .para{
   font-size:10vw;
-  top:155%;
+  top:165%;
 }
 .web{
   display: none;
@@ -284,19 +284,19 @@ html{
 .musicpara{
   font-size:18vw;
   left:50%;
-  top:300%;
+  top:320%;
 }
 .contactpara{
   text-align: center;
   color: rgba(149 , 153 , 162 , 1);
-  font-size: 5vw;
+  font-size: 6vw;
   font-weight: 100;
   font-family: "simplifica_sans";
 }
 .contacthead{
   color: #ffffff;
   text-align: center;
-  font-size: 12vw;
+  font-size: 13vw;
   font-family: "ff-good-headline-web-pro-con",sans-serif;
   line-height: 50px;
   margin-left: 0;
