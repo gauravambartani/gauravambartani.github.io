@@ -280,6 +280,8 @@ html{
   max-height: 100vh;
   width: 100vw;
   padding-top: 126%;
+position:absolute;
+	z-index:0;
 }
 .musicpara{
   font-size:18vw;
