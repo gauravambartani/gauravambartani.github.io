@@ -73,7 +73,7 @@ html{
 
 .info{
   font-family: "simplifica_sans";
-  font-size: 5vw;
+  font-size: 4vw;
   color: white;
   text-align: center;
   position: absolute;
@@ -90,7 +90,7 @@ html{
     src: url('simplifica_sans.ttf');
 }
 .web{
-  width: 100vw;
+  width: 100%;
   height: 800px;
   padding-top: 47.5%;
   display: block;
@@ -170,7 +170,7 @@ html{
 
 
 .music{
-  width: 100vw;
+  width: 100%;
   height: 800px;
   padding-top: 0.7%;
   display: block;
@@ -257,7 +257,7 @@ html{
   padding-top: 125%;
 }
 .info{
-  font-size: 6vw;
+  font-size: 7.5vw;
   top:60%;
 }
 .home{
@@ -265,7 +265,7 @@ html{
 }
 .informative{
   font-size: 18vw;
-  top:130%;
+  top:120%;
   left: 73%;
 }
 .para{
@@ -277,11 +277,9 @@ html{
 }
 .webm{
   display: block;
-  max-height: 100vh;
-  width: 100vw;
+  max-height: 100%;
+  width: 100%;
   padding-top: 126%;
-position:absolute;
-	z-index:0;
 }
 .musicpara{
   font-size:18vw;
@@ -313,6 +311,7 @@ position:absolute;
 }
 #A1{
   margin-left: 25%;
+  margin-top: 6.5%;
 }
 
 }
