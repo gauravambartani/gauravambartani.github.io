@@ -1,10 +1,8 @@
-
-
-
 html{
   background-image: url('Images/Background.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
+  background-color: #10131a;
 }
 
 .no-js #loader { display: none;  }
@@ -20,7 +18,7 @@ html{
   background-color: black;
 }
 
-::selection{color:#64fcf2; background: rgba(24, 48, 70, 0.7);}
+::selection{background:#66fcf1; text-decoration: underline;}
 
 .name{
   font-family: 'Righteous', cursive;
@@ -29,6 +27,10 @@ html{
   text-align: center;
   font-weight: lighter;
   cursor:pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 
 }
 
@@ -42,7 +44,7 @@ html{
 .home{
   color:#64fcf2;
   font-family: "ff-good-headline-web-pro-con",sans-serif;
-  font-size: 32vw;
+  font-size: 28vw;
   text-align: center;
   line-height: 190px;
   font-weight: 900;
@@ -62,6 +64,10 @@ html{
   outline-style: initial;
   outline-width: 0px;
   box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 
@@ -100,7 +106,7 @@ html{
   font-size: 10vw;
   font-weight: 800;
   position: absolute;
-  top: 130%;
+  top: 135%;
   left: 75%;
   transform: translate(-50%, -50%);
   margin-left: 0;
@@ -115,6 +121,10 @@ html{
   outline-style: initial;
   outline-width: 0px;
   box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 
 }
 
@@ -124,7 +134,7 @@ html{
   font-size: 4vw;
   font-weight: 500;
   position: absolute;
-  top: 163%;
+  top: 173%;
   left: 71%;
   transform: translate(-50%, -50%);
   margin-left: 0;
@@ -152,11 +162,15 @@ html{
   top: 300%;
   left: 45%;
   transform: translate(-50%, -1%);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 
 .music{
-  width: 90%;
+  width: 100%;
   height: 800px;
   padding-top: 0.7%;
   display: block;
@@ -166,6 +180,75 @@ html{
 .musicm{
   display: none;
 }
+
+.contacthead{
+  color: #ffffff;
+  text-align: center;
+  font-size: 6.5vw;
+  font-family: "ff-good-headline-web-pro-con",sans-serif;
+  line-height: 50px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 10%;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  text-size-adjust: none;
+}
+
+hr{
+  background-color:#64fcf2;
+  border: none;
+  height: 1px;
+  width: 70px;
+}
+
+.contactpara{
+  text-align: center;
+  color: rgba(149 , 153 , 162 , 1);
+  font-size: 2.2vw;
+  font-weight: 100;
+  font-family: "simplifica_sans";
+}
+
+
+#A1 {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    height: 57.9972px;
+    letter-spacing: 4px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 177.727px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 88.8636px 28.9915px;
+    transform-origin: 88.8636px 28.9915px;
+    caret-color: rgb(255, 255, 255);
+    border: 1.98864px solid rgb(102, 252, 241);
+    border-radius: 2px 2px 2px 2px;
+    font: normal normal 600 normal 16px / 54px tablet-gothic-narrow, sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 0px 40px;
+    margin-left: 42%;
+    margin-top: 4.5%;
+    transition: color 0.5s , background 0.5s;
+  }
+  #A1:hover{
+    background-color: #64fcf2;
+    color: black;
+  }
+
+
+
+
+
 @media  (max-width: 800px) {
 html{
   background-image: url("Images/Backgroundm.jpg");
@@ -203,6 +286,31 @@ html{
   left:50%;
   top:300%;
 }
-
+.contactpara{
+  text-align: center;
+  color: rgba(149 , 153 , 162 , 1);
+  font-size: 5vw;
+  font-weight: 100;
+  font-family: "simplifica_sans";
+}
+.contacthead{
+  color: #ffffff;
+  text-align: center;
+  font-size: 12vw;
+  font-family: "ff-good-headline-web-pro-con",sans-serif;
+  line-height: 50px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 10%;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  text-size-adjust: none;
+}
+#A1{
+  margin-left: 25%;
+}
 
 }
