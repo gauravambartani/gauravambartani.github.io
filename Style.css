@@ -176,7 +176,7 @@ background-color: #10131a;
   color: #e9f1f1;
   font-weight: bolder;
   text-align: center;
-  position: absolute;
+  position: fixed;
   top: 245%;
   left: 81%;
   transform: translate(-50%, -1%);
@@ -340,7 +340,7 @@ background-color: #10131a;
 }
 .informative{
   font-size: 18vw;
-  top:100%;
+  top:125%;
 }
 
 .web{
@@ -355,7 +355,7 @@ background-color: #10131a;
 .musicpara{
   font-size:18vw;
   left:75%;
-  top: 200%;
+  top: 240%;
   position: absolute;
 }
 .contactpara{
@@ -400,7 +400,7 @@ background-color: #10131a;
   font-size: 10vw;
 }
 .social-btns {
-top: 600%;
+top: 700%;
 
 }
 }
