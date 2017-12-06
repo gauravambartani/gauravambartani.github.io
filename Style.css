@@ -1,8 +1,23 @@
 html{
-  background-image: url('Images/Background.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-color: #10131a;
+background-color: #10131a;
+}
+
+.background{
+  width: 100%;
+  height: 100%;
+  padding-top: 0;
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  border-left: 0;
+  border-right: 0;
+  display: block;
+}
+
+.backgroundm{
+  display: none;
 }
 
 .no-js #loader { display: none;  }
@@ -14,16 +29,16 @@ html{
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url('Images/loading.gif') center no-repeat #fff;
-  background-color: black;
+	background: url('Images/loading.gif') center no-repeat #10131a;
+  background-color: #1b212d;
 }
 
 ::selection{background:#66fcf1; text-decoration: underline;}
 
 .name{
   font-family: 'Righteous', cursive;
-  font-size:40px;
-  color:#eee;
+  font-size:3.2vw;
+  color:#e9f1f1;
   text-align: center;
   font-weight: lighter;
   cursor:pointer;
@@ -31,7 +46,28 @@ html{
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-
+  text-align: center;
+  font-weight: 900;
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top:0;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  outline-color: initial;
+  outline-style: initial;
+  outline-width: 0px;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 
@@ -91,9 +127,14 @@ html{
 }
 .web{
   width: 100%;
-  height: 800px;
-  padding-top: 47.5%;
+  height: 100%;
   display: block;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  border-left: 0;
+  border-right: 0;
 }
 
 .webm{
@@ -102,12 +143,12 @@ html{
 
 .informative{
   font-family: "simplifica_sans", "segoe ui";
-  color: #4C4E4F;
+  color:#e9f1f1 ;
   font-size: 10vw;
   font-weight: 800;
   position: absolute;
-  top: 135%;
-  left: 75%;
+  top: 130%;
+  left: 30%;
   transform: translate(-50%, -50%);
   margin-left: 0;
   margin-right: 0;
@@ -128,39 +169,16 @@ html{
 
 }
 
-.para{
-  font-family: "simplifica_sans", "segoe ui";
-  color: #16202d;
-  font-size: 4vw;
-  font-weight: 500;
-  position: absolute;
-  top: 173%;
-  left: 71%;
-  transform: translate(-50%, -50%);
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-top:0;
-  padding-top: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  outline-color: initial;
-  outline-style: initial;
-  outline-width: 0px;
-  box-sizing: border-box;
-
-}
 
 .musicpara{
   font-family: "simplifica_sans";
-  font-size: 4vw;
-  color: #000000;
+  font-size: 6vw;
+  color: #e9f1f1;
   font-weight: bolder;
   text-align: center;
   position: absolute;
-  top: 300%;
-  left: 45%;
+  top: 245%;
+  left: 81%;
   transform: translate(-50%, -1%);
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -171,8 +189,8 @@ html{
 
 .music{
   width: 100%;
-  height: 800px;
-  padding-top: 0.7%;
+  max-height: 100%;
+  padding-top: 0%;
   display: block;
 
 }
@@ -198,7 +216,7 @@ html{
   text-size-adjust: none;
 }
 
-hr{
+.hr1{
   background-color:#64fcf2;
   border: none;
   height: 1px;
@@ -219,25 +237,24 @@ hr{
     color: rgb(255, 255, 255);
     cursor: pointer;
     display: inline-block;
-    height: 57.9972px;
+    height: 5vw;
     letter-spacing: 4px;
     text-align: center;
     text-decoration: none solid rgb(255, 255, 255);
     text-size-adjust: 100%;
     text-transform: uppercase;
     vertical-align: middle;
-    width: 177.727px;
     column-rule-color: rgb(255, 255, 255);
     perspective-origin: 88.8636px 28.9915px;
     transform-origin: 88.8636px 28.9915px;
     caret-color: rgb(255, 255, 255);
     border: 1.98864px solid rgb(102, 252, 241);
     border-radius: 2px 2px 2px 2px;
-    font: normal normal 600 normal 16px / 54px tablet-gothic-narrow, sans-serif;
+    font: normal normal 600 normal 1.6vw / 5vw "tablet-gothic-narrow", sans-serif;
     outline: rgb(255, 255, 255) none 0px;
-    padding: 0px 40px;
+    padding: 0px 4vw;
     margin-left: 42%;
-    margin-top: 4.5%;
+    margin-top: 3.5%;
     transition: color 0.5s , background 0.5s;
   }
   #A1:hover{
@@ -245,19 +262,77 @@ hr{
     color: black;
   }
 
+.hr2{
+  background-color:#64fcf2;
+  border: none;
+  height: 1px;
 
+}
 
+.social{
+  font-family: "simplifica_sans";
+  text-align: center;
+  font-size: 3.7vw;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  padding-top: 3%;
+
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
 
 
 @media  (max-width: 800px) {
-html{
-  background-image: url("Images/Backgroundm.jpg");
+
+
+.name{
+  top:10%;
+  font-size: 12vw;
 }
+
+.backgroundm{
+  display: block;
+  max-width: 100%
+}
+
+.background{
+  display: none;
+}
+
 .web{
-  padding-top: 125%;
+  padding-top: 0%;
 }
 .info{
-  font-size: 7.5vw;
+  font-size: 8.5vw;
   top:60%;
 }
 .home{
@@ -265,13 +340,9 @@ html{
 }
 .informative{
   font-size: 18vw;
-  top:130%;
-  left: 73%;
+  top:100%;
 }
-.para{
-  font-size:10vw;
-  top:165%;
-}
+
 .web{
   display: none;
 }
@@ -279,12 +350,13 @@ html{
   display: block;
   max-height: 100%;
   width: 100%;
-  padding-top: 126%;
+  padding-top: 0%;
 }
 .musicpara{
   font-size:18vw;
-  left:50%;
-  top:320%;
+  left:75%;
+  top: 200%;
+  position: absolute;
 }
 .contactpara{
   text-align: center;
@@ -310,8 +382,25 @@ html{
   text-size-adjust: none;
 }
 #A1{
-  margin-left: 25%;
+  margin-left: 33%;
   margin-top: 6.5%;
+  font-size: 6vw;
+  height: 14vw;
+  width: 40vw;
+  padding-top: 4vw;
 }
+.music{
+  display: none;
+}
+.musicm{
+  display: block;
+  max-width: 100%;
+}
+.social{
+  font-size: 10vw;
+}
+.social-btns {
+top: 600%;
 
+}
 }
