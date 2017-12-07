@@ -81,7 +81,7 @@
 }
 
 
-.top{
+body{
   background-image: url("Images/contact.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -373,8 +373,9 @@
 }
 
 @media (max-width: 800px) {
-  .top{
+  body{
     background-image: url("Backgroundm.jpg");
+      Height:100
 
      }
     .name {
