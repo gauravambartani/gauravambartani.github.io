@@ -373,7 +373,8 @@ html{
 @media (max-width: 800px) {
   html{
     background-image: url("Images/contactm.jpg");
-      Background-size:cover;
+    Background-width:100%;
+      Background-height:100
   }
     .name {
         top: 10%;
