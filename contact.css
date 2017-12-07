@@ -276,6 +276,7 @@ html{
 }
 
 #submit{
+  background-color: #10131a;
   box-sizing: border-box;
   color: rgb(255, 255, 255);
   cursor: pointer;
