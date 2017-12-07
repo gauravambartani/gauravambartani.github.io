@@ -375,6 +375,7 @@ Body{
 @media (max-width: 800px) {
   Body{
     background-image: url("Images/contactm.jpg");
+      Background-height:100
      }
     .name {
         top: 10%;
