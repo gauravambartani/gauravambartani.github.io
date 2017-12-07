@@ -374,11 +374,9 @@ Body{
 }
 
 @media (max-width: 800px) {
-  html{
+  Body{
     background-image: url("Images/contactm.jpg");
-    Background-width:100%;
-      Background-height:100
-  }
+     }
     .name {
         top: 10%;
         font-size: 12vw;
