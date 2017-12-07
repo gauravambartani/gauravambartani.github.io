@@ -86,9 +86,8 @@ Body{
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: #10131a;
-  overflow-y: hidden ! important;
-  overflow-x: hidden ! important;
-    background-position: center center ;
+
+    background-position: center;
 }
 
 .home {
