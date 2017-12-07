@@ -176,7 +176,7 @@ background-color: #10131a;
   color: #e9f1f1;
   font-weight: bolder;
   text-align: center;
-  position: fixed;
+  position: absolute;
   top: 245%;
   left: 81%;
   transform: translate(-50%, -1%);
