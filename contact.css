@@ -81,11 +81,14 @@
 }
 
 
-html{
+Body{
   background-image: url("Images/contact.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: #10131a;
+  overflow-y: hidden ! important;
+  overflow-x: hidden ! important;
+    background-position: center center ;
 }
 
 .home {
