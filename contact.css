@@ -404,6 +404,8 @@ body{
   padding-top: 0;
   border-top: 0;
   transform: translate(1%, -100%);
+  background-color: #10131a;
+
 }
 
 @media (max-width: 800px) {
