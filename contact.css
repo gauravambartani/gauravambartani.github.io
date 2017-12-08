@@ -420,6 +420,12 @@ background-color: #10131a;
     
 
 @media (max-width: 800px) {
+    hr1{
+        margin-left:33%;
+        }
+    .hr2{
+        transform: translate(0%, -70000%);
+        }
     .bottom{
         transform: translate (0%, -120%);
         }
@@ -514,10 +520,10 @@ background-color: #10131a;
     }
     .social {
         font-size: 10vw;
-        transform: translate(0%, -1000%);
+        transform: translate(0%, -1070%);
     }
     .social-btns {
-        top: 700%;
+        top: 500%;
     }
     .bottom{
       margin-top: 30%;
