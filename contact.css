@@ -409,6 +409,7 @@ body{
   border-top: 0;
   transform: translate(1%, -100%);
   background-color: #10131a;
+  whitespace:nowarp;
 
 }
 
