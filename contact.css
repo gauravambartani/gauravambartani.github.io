@@ -85,6 +85,10 @@ body{
   background-color: #10131a;
 }
 
+*{
+  background-color: #10131a;
+}
+
 .contactimage{
   display: block;
   width: 100%;
