@@ -81,8 +81,9 @@
 }
 
 
-body{
+html body{
   background-color: #10131a;
+    whitespace:nowarp;
 }
 
 
@@ -393,7 +394,7 @@ body{
     margin: 0;
     border: 0;
     padding-top: 3%;
-    transform: translate(0%, -900%);
+Whitespace:nowarp;
 }
 
 .hr2 {
