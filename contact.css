@@ -412,8 +412,16 @@ body{
   whitespace:nowarp;
 
 }
+Footer{
+background-color: #10131a;
+    Whitespace:nowarp;
+    }
+    
 
 @media (max-width: 800px) {
+    .bottom{
+        transform: translate (0%, -120%);
+        }
    .contactimage{
    display:
    width: 0px;
