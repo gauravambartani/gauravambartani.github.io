@@ -82,6 +82,7 @@
 
 
 html body{
+    background-image:none;
   background-image: url("Images/contact.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
