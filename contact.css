@@ -82,11 +82,22 @@
 
 
 html body{
-    background-image:none;
-  background-image: url("Images/contact.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
   background-color: #10131a;
+    whitespace:nowarp;
+}
+
+
+
+
+
+.contactimage{
+  display: block;
+  width: 100%;
+  max-height: 100%;
+}
+
+.contactimagem{
+  display: none;
 }
 
 .no-js #loader {
@@ -383,20 +394,52 @@ html body{
     margin: 0;
     border: 0;
     padding-top: 3%;
+Whitespace:nowarp;
 }
 
 .hr2 {
     background-color: #64fcf2;
     border: none;
     height: 1px;
+    transform: translate(0%, -90000%);
 }
 
+.bottom{
+  margin-top: 0%;
+  padding-top: 0;
+  border-top: 0;
+  transform: translate(1%, -100%);
+  background-color: #10131a;
+  whitespace:nowarp;
+
+}
+Footer{
+background-color: #10131a;
+    Whitespace:nowarp;
+    }
+
+
 @media (max-width: 800px) {
-  html body{
-    background-image: none;
-    background-image: url("Images/contactm.jpg");
-    background-color: #10131a;
-  }
+    hr1{
+        margin-left:33%;
+        }
+    .hr2{
+        transform: translate(0%, -70000%);
+        }
+    .bottom{
+        transform: translate (0%, -120%);
+        }
+   .contactimage{
+   display:
+   width: 0px;
+   height: 0px;
+   }
+   .contactimagem{
+     display: block;
+     max-width: 100%;
+     background-color: #10131a;
+   }
+
     .name {
         top: 10%;
         font-size: 12vw;
@@ -477,6 +520,7 @@ html body{
     }
     .social {
         font-size: 10vw;
+        transform: translate(0%, -1320%);
     }
     .social-btns {
         top: 500%;
@@ -492,3 +536,4 @@ html body{
       padding-top: 2.2%;
     }
 }
+  
