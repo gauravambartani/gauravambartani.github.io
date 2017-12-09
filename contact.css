@@ -391,8 +391,10 @@ html body{
 }
 
 @media (max-width: 800px) {
-  html{
+  html body{
+    background-image: none;
     background-image: url("Images/contactm.jpg");
+    background-color: #10131a;
   }
     .name {
         top: 10%;
@@ -476,7 +478,7 @@ html body{
         font-size: 10vw;
     }
     .social-btns {
-        top: 700%;
+        top: 500%;
     }
     .bottom{
       margin-top: 30%;
