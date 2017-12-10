@@ -427,7 +427,7 @@ background-color: #10131a;
 
 @media (max-width: 800px) {
     .hr1{
-        margin-left:33%;
+        margin-left:35%;
         }
     .hr2{
         transform: translate(0%, -70000%);
@@ -527,10 +527,10 @@ background-color: #10131a;
     }
     .social {
         font-size: 10vw;
-        transform: translate(0%, -1320%);
+        transform: translate(0%, -1350%);
     }
     .social-btns {
-        top: 500%;
+        top: 517%;
     }
     .bottom{
       margin-top: 30%;
